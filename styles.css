@@ -200,13 +200,12 @@ body {
     letter-spacing: -0.5px;
 }
 
-.verified-badge {
-    color: var(--primary-green);
-    width: 18px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.verified-badge-img {
+    width: 19px;
+    height: 19px;
+    object-fit: contain;
+    display: inline-block;
+    flex-shrink: 0;
 }
 
 /* Logo Pill Badge */
